@@ -1,0 +1,120 @@
+.home{
+  position: fixed;
+}
+.home img{
+    width: 100vw;
+    height: 150px;
+}
+.Profile{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    top: 150px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+
+}
+.post{
+    display: flex;
+    flex-direction: row;
+}
+.Profile img{
+     width: 150px;
+     height: 150px;
+     border: 1px solid black;
+     border-radius: 0px 20px 0px 20px;
+}
+.Profile .name{
+   margin-top: 50px;
+   background-color: whitesmoke;
+   height: 45px;
+   padding: 0px 10px 5px 10px;
+}
+.Homefeed{
+    /* overflow: auto; */
+    /* margin-top: 20px; */
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+ 
+}
+.details{
+    margin-top: 160px;
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.details .blog{
+    display: flex;
+    padding: 5px 20px;
+    gap: 10px;
+}
+.details .blog img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.details .blogpost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details .blogpost img{
+    width: 350px;
+    height: 350px;
+    border-radius:5px;
+}
+.details .blogpost .paragraph{
+    padding: 10px 20px;
+}
+.feed__inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+  }
+.inputOption {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: gray;
+    padding: 10px;
+    gap: 2px;
+    cursor: pointer;
+  }
+  
+  .inputOption:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+  
+  .inputOption h4, h5 {
+    font-size: 0.90rem !important;
+    margin-top: 0.5rem !important;
+    margin-left: 5px;
+  }
+     
+    .card-myheader {
+      padding: 0.75rem 1.25rem;
+      margin-bottom: 0;
+      background-color: rgb(255, 255, 255) !important;
+      border-bottom:none;
+  }
+    .card-footer {
+      padding:0;
+      background-color: rgb(252, 252, 252);
+      border-top: 1px solid rgba(0,0,0,.125);
+  }
+  @media screen and (max-width:412px){
+    .home{
+        display: none;
+      }
+      .details{
+        margin-top: 10px;
+      }
+  }

@@ -1,0 +1,39 @@
+
+.sidebar{
+    position: fixed;
+  top: 20px;
+  flex: 0.2;
+  border-radius: 10px;
+  text-align: center;
+}
+.image_profile{
+    width: 80px;
+    height: 80px;
+    border-radius:35px ;
+
+}
+.list-group-item{
+    background-color: whitesmoke;
+    text-align: left;
+}
+.profile1{
+  border-radius: 5px;
+  padding: 10px;
+  background-color: whitesmoke;
+  width: 250px;
+}
+.image_div{
+    background-color: #13385c;
+    height: 70px;
+    align-items: center;
+    padding: 20px;
+
+}
+@media screen and (max-width:768px){
+    .profile{
+        /* width:350px;
+        height:360px; */
+        margin-bottom: 15px;
+
+    }
+}
